@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -29,19 +30,37 @@ public class MainActivity extends AppCompatActivity {
         btn_jeju = findViewById(R.id.btn_jeju);
 
         //버튼 이벤트
-        btn_gangwon.setOnClickListener(new View.OnClickListener() {
+        View.OnClickListener clickListener = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                intent = new Intent(MainActivity.this, result_gangwon.class);
+                switch (view.getId()) {
+                    case R.id.btn_gangwon:
+                        intent = new Intent(MainActivity.this, result_gangwon.class);
+                        break;
+                    case R.id.btn_chungcheong:
+                        Log.d("", "DDd");
+                        intent = new Intent(MainActivity.this, result_chungcheong.class);
+                        break;
+                    case R.id.btn_gyeongsang:
+                        intent = new Intent(MainActivity.this, result_gyeongsang.class);
+                        break;
+                    case R.id.btn_jeolla:
+                        intent = new Intent(MainActivity.this, result_jeolla.class);
+                        break;
+                    case R.id.btn_jeju:
+                        intent = new Intent(MainActivity.this, result_jeju.class);
+                        break;
+                }
                 startActivity(intent);
             }
-        });
-        btn_chungcheong.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                intent = new Intent(MainActivity.this, search.class);
-                startActivity(intent);
-            }
-        });
+        };
+        
+        //리스너 연결
+        btn_gangwon.setOnClickListener(clickListener);
+        btn_chungcheong.setOnClickListener(clickListener);
+        btn_gyeongsang.setOnClickListener(clickListener);
+        btn_jeolla.setOnClickListener(clickListener);
+        btn_jeju.setOnClickListener(clickListener);
+
     }
 }

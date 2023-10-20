@@ -18,8 +18,8 @@
         android:id="@+id/btn_gangwon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="220dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="150dp"
         android:background="#00ff0000" />
 
     //충청도
@@ -27,8 +27,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_chungcheong"
-        android:layout_marginTop="320dp"
-        android:layout_marginLeft="100dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="130dp"
         android:background="#00ff0000"/>
 
     //경상도
@@ -36,8 +36,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_gyeongsang"
-        android:layout_marginTop="390dp"
-        android:layout_marginLeft="260dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="250dp"
         android:background="#00ff0000"/>
 
     //전라도
@@ -45,8 +45,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_jeolla"
-        android:layout_marginTop="480dp"
-        android:layout_marginLeft="80dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="100dp"
         android:background="#00ff0000"/>
 
     //제주도
@@ -54,8 +54,8 @@
         android:id="@+id/btn_jeju"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="650dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="70dp"
         android:background="#00ff0000"/>
 
 

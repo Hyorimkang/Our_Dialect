@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Our_Dialect">
         <activity
+            android:name=".result_jeolla"
+            android:exported="false" />
+        <activity
+            android:name=".result_gyeongsang"
+            android:exported="false" />
+        <activity
+            android:name=".result_chungcheong"
+            android:exported="false" />
+        <activity
+            android:name=".result_jeju"
+            android:exported="false" />
+        <activity
             android:name=".result_gangwon"
             android:exported="false" />
         <activity

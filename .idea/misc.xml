@@ -5,9 +5,13 @@
       <map>
         <entry key="..\:/Our_Dialect/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Our_Dialect/app/src/main/res/layout/activity_result.xml" value="0.24947916666666667" />
-        <entry key="..\:/Our_Dialect/app/src/main/res/layout/activity_result_gangwon.xml" value="0.176" />
+        <entry key="..\:/Our_Dialect/app/src/main/res/layout/activity_result_chungcheong.xml" value="0.24947916666666667" />
+        <entry key="..\:/Our_Dialect/app/src/main/res/layout/activity_result_gangwon.xml" value="0.1" />
+        <entry key="..\:/Our_Dialect/app/src/main/res/layout/activity_result_gyeongsang.xml" value="0.1" />
+        <entry key="..\:/Our_Dialect/app/src/main/res/layout/activity_result_jeju.xml" value="0.152" />
+        <entry key="..\:/Our_Dialect/app/src/main/res/layout/activity_result_jeolla.xml" value="0.1" />
         <entry key="..\:/Our_Dialect/app/src/main/res/layout/activity_search.xml" value="0.24947916666666667" />
-        <entry key="..\:/Our_Dialect/app/src/main/res/layout/activity_splash.xml" value="0.24947916666666667" />
+        <entry key="..\:/Our_Dialect/app/src/main/res/layout/activity_splash.xml" value="0.16" />
       </map>
     </option>
   </component>
