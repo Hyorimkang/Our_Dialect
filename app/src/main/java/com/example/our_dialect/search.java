@@ -39,5 +39,18 @@ public class search extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btn_translate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //editText 텍스트화
+                String standard = edt_standard.getText().toString();
+
+                
+            }
+        });
+       
+        
+        
     }
 }
