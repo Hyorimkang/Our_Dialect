@@ -58,6 +58,4 @@
         android:layout_marginLeft="70dp"
         android:background="#00ff0000"/>
 
-
-
 </RelativeLayout>
