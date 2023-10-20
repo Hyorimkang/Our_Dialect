@@ -31,8 +31,10 @@
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:text="설명~~"
-                android:textSize="50px"/>
+                android:text="강원도 지방은 태백산맥을 \n중심으로 영동과 영서 지역으로나뉘며 동해와 접하고 있다.
+높은 산과 맑은 바다가 있고 밭농사가 발달했다.\n특산물\n강원도 평창 감자(대표적), 횡성한우, 동해 오징어, 원주 쌀, 영월 곤드레밥
+"
+                android:textSize="45px"/>
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="200dp"

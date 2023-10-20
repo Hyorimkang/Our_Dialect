@@ -31,8 +31,9 @@
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:text="설명~~"
-                android:textSize="50px"/>
+                android:text="용암이 식어서 생긴 현무암은 기둥 모양으로 쪼개지는 성질이 있어 절벽을 잘 만든다. \n그래서 제주 해안에는 폭포가 생겼는데, 대표적인 폭포로 정방 폭포와 천지연 폭포가 있다.
+                \n특산물\n감귤, 한라봉, 천혜향, 레드향, 흑돼지, 갈치, 우도 땅콩"
+                android:textSize="40px"/>
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="200dp"

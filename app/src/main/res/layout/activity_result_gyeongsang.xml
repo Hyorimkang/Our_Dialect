@@ -31,8 +31,9 @@
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:text="설명~~"
-                android:textSize="50px"/>
+                android:text="경상도 지방은 우리나라 최대의 공업 지역이며, 그에 따라 인구가 많아 광역시가 가장 많은 지역이다.
+                \n특산물\n상주 곶감,성주 참외,영덕 송이,영덕 대게, 김천 포도"
+                android:textSize="45px"/>
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="200dp"

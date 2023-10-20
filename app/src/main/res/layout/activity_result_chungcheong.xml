@@ -31,8 +31,9 @@
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:text="설명~~"
-                android:textSize="50px"/>
+                android:text="충청북도는 우리나라 가운데에 위치하며 바다에 \n접한 곳이 없고, 충청남도는 우리나라 중부 서남쪽에 위치하며 넓은 평야가 많다.
+                \n특산물\n충주사과, 충주 밤, 단양 마늘 , 괴산 고춧가루,괴산찰옥수수, 영동 곶감 "
+                android:textSize="45px"/>
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="200dp"
