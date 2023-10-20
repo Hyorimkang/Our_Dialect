@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Our_Dialect">
         <activity
-            android:name=".result"
+            android:name=".result_gangwon"
             android:exported="false" />
         <activity
             android:name=".splash"

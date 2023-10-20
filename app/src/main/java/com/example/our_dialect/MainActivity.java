@@ -32,13 +32,15 @@ public class MainActivity extends AppCompatActivity {
         btn_gangwon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                intent = new Intent(MainActivity.this, search.class);
+                intent = new Intent(MainActivity.this, result_gangwon.class);
+                startActivity(intent);
             }
         });
-        btn_gangwon.setOnClickListener(new View.OnClickListener() {
+        btn_chungcheong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 intent = new Intent(MainActivity.this, search.class);
+                startActivity(intent);
             }
         });
     }
