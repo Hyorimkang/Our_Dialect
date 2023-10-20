@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.our_dialect" >
+    package="com.example.our_dialect">
 
     <application
         android:allowBackup="true"
@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Our_Dialect">
         <activity
+            android:name=".result"
+            android:exported="false" />
+        <activity
             android:name=".splash"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
