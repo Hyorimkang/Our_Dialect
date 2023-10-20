@@ -46,7 +46,7 @@ public class search extends AppCompatActivity {
                 //editText 텍스트화
                 String standard = edt_standard.getText().toString();
 
-                
+
             }
         });
        
